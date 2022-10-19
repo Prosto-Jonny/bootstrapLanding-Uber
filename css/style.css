@@ -1,0 +1,221 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: relative;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 0px 70px;
+    height: 50px;
+    background: #212121;
+}
+
+.menu{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 40px;
+}
+
+.menu .menu_item .menu_link{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.subheader{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    min-height: 87px;
+    background-color: rgba(0, 0, 0, .6);
+    /* mix-blend-mode: normal;  */
+}
+
+.subheader .logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .logo_text{
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_tel{
+    margin-top: 24px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_phone{
+    /* margin-top: 8px; */
+    display: block;
+    font-size: 22px;
+    font-weight: 400;
+    /* line-height: 12px; */
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.subheader .subheader_btn{
+    margin-top: 21px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 46px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo{
+    padding: 150px 0 180px 0;
+    min-height: 799px;
+    background: url('../img/uber_bg.jpg') center center/cover no-repeat;
+}
+
+.promo .promo_header{
+    text-align: center;
+    margin: 0;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo .promo_title{
+    margin: 0;
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height:36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo .promo_text{
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn{
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.advantages{
+    padding: 18px 0 64px 0;
+    min-height: 860px;
+}
+
+.advantages .advantages_head{
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 7px;
+}
+
+.advantages .advantages_title{
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.advantages .advantages_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.advantages .advantages_box .box_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.advantages .advantages_box .box_text .box_text-title{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.advantages .advantages_box .box_text{
+    width: 341px;
+    min-height: 150px;
+    font-style: 300;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+
+.mobile_application{
+    background: url(../img/mobile_bg.jpg) center center/ cover no-repeat;
+    min-height: 864px;
+}
+
+
+
